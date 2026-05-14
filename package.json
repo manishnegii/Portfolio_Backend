@@ -1,0 +1,33 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "\"backend Project\"",
+  "keywords": [
+    "portfolio",
+    "react"
+  ],
+  "homepage": "https://github.com/manishnegii/Portfolio#readme",
+  "bugs": {
+    "url": "https://github.com/manishnegii/Portfolio/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manishnegii/Portfolio.git"
+  },
+  "license": "ISC",
+  "author": "Manish Negi",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "nodemailer": "^8.0.7"
+  }
+}
